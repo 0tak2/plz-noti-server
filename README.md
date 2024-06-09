@@ -8,6 +8,21 @@
 
 시간 기반 + 외부 데이터 소스 알림을 쉽게 받아보기 위한 사이드 프로젝트
 
+## Prepare Environment
+
+### 1. 환경 변수 설정
+
+```sh
+cp .env.example .env
+nvim .env
+```
+
+### 2. Firebase 서비스 어카운트 파일
+
+```sh
+ls google-service-account.json
+```
+
 ## Running the app
 
 ```bash
